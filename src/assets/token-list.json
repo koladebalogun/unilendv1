@@ -1,0 +1,46 @@
+[
+  {
+    "chainId": 1,
+    "asset": "c60_t0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "type": "ERC20",
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "logoURI": "https://assets.trustwalletapp.com/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+    "pairs": []
+  },
+
+  {
+    "asset": "c60_t0xf4CD3d3Fda8d7Fd6C5a500203e38640A70Bf9577",
+    "type": "ERC20",
+    "address": "0xf4CD3d3Fda8d7Fd6C5a500203e38640A70Bf9577",
+    "name": "YfDAI.finance",
+    "symbol": "Yf-DAI",
+    "decimals": 18,
+    "logoURI": "https://assets.trustwalletapp.com/blockchains/ethereum/assets/0xf4CD3d3Fda8d7Fd6C5a500203e38640A70Bf9577/logo.png",
+    "pairs": []
+  },
+
+  {
+    "asset": "c60_t0x0202Be363B8a4820f3F4DE7FaF5224fF05943AB1",
+    "type": "ERC20",
+    "address": "0x0202Be363B8a4820f3F4DE7FaF5224fF05943AB1",
+    "name": "UniLend",
+    "symbol": "UFT",
+    "decimals": 18,
+    "logoURI": "https://assets.trustwalletapp.com/blockchains/ethereum/assets/0x0202Be363B8a4820f3F4DE7FaF5224fF05943AB1/logo.png",
+    "pairs": []
+  },
+
+  {
+    "asset": "c60_t0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+    "type": "ERC20",
+    "address": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+    "name": "Polygon",
+    "symbol": "MATIC",
+    "decimals": 18,
+    "logoURI": "https://assets.trustwalletapp.com/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png",
+    "pairs": []
+  }
+]

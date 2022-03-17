@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Navigation */
+nav {
+  height: 30px;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  background: #374858;
+}
+
+nav .left {
+  display: flex;
+  align-items: center;
+}
+
+.wallet-btn {
+  display: flex;
+  /* align-items: center; */
+  position: absolute;
+  right: 5%;
+  padding: 10px 20px;
+  border: 1px solid #000e22;
+  background-color: #000e22;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.wallet-icon {
+  margin-right: 20px;
+}
+
+.network {
+  position: absolute;
+  right: 15%;
+  padding: 10px 20px;
+  border: 1px solid #000e22;
+  background-color: #000e22;
+  color: white;
+  border-radius: 10px;
+}
+
+.address {
+  position: absolute;
+  right: 5%;
+  padding: 10px 20px;
+  border: 1px solid #000e22;
+  background-color: #000e22;
+  color: white;
+  border-radius: 10px;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+nav li:hover{
+    color: grey;
+}
+
+img {
+  width: 30px;
+  margin-right: 20px;
+}
+
+
+/* Body */
+.wrapper {
+  width: 100%;
+  height: 90.6vh;
+  background-color: rgb(23, 20, 39);
+  overflow: hidden;
+}
+
+.container {
+  width: 500px;
+  height: 330px;
+  border: 1px solid rgb(0, 77, 243);
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+  border-radius: 25px;
+}
+
+.container-header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #002558;
+  border-radius: 25px 25px 0 0;
+}
+
+.header {
+  background-color: #000e22;
+  color: white;
+  border: 1px solid #000e22;
+  padding: 10px 15px;
+  border-radius: 50px;
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+/* Card */
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 20px;
+  border: 1px solid #002558;
+  background-color: #002558;
+  padding: 25px;
+  border-radius: 15px;
+  position: relative;
+}
+
+
+
+.price {
+  color: white;
+}
+
+.balance-field{
+  position: relative;
+  top: -25px;
+  color: #fff;
+}
+
+.select-btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin-top: 20px;
+}
+
+.connect-btn {
+  width: 93%;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.btn {
+  padding: 5px 15px;
+  position: relative;
+  left: 80%;
+  top: -5px;
+  border-radius: 50px;
+  border: 1px solid blue;
+  background-color: rgba(47, 0, 255, 0.87);
+  color: white;
+  cursor: pointer;
+}
+
+.amount-txt {
+  color: white;
+  margin-bottom: 15px;
+  /* position: absolute; */
+  font-size: 20px;
+  position: relative;
+  left: -65px;
+}
+
+.max-btn{
+  color: white;
+  font-weight: bolder;
+  padding: 10px 10px;
+  position: absolute;
+  top: 45px;
+  right: 155px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 77, 243);
+  background-color: rgb(14, 2, 87);
+  cursor: pointer;
+  
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #002558;
+  background-color: #002558;
+  font-size: 18px;
+  outline: none;
+  color: #fff;
+}
+
+
+
+/* Modal */
+body.active-modal {
+  overflow-y: hidden;
+}
+
+
+.modal{
+  width: 100vw;
+  height: 100vh;
+  top: 20px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+  overflow: hidden;
+
+}
+
+.modal-content {
+  position: relative;
+  top: 350px;
+  right: -270px;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: rgb(34, 34, 34);
+  color: white;
+  padding: 14px 0px;
+  border-radius: 25px;
+  border: 1px solid black;
+  width: 400px;
+  height: 500px;
+  display: inline-block;
+  overflow: scroll;
+
+}
+
+.modal-content h2{
+  margin-bottom: 50px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 70px;
+  right: 30%;
+  padding: 5px 7px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.icon {
+  width: 30px;
+  height: 25px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+
+
+/* Tokens */
+.tokenlist{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(34, 34, 34);
+  border-bottom: 1px solid rgb(34, 34, 34);
+  width: 100%;
+  cursor: pointer;
+  padding-top: 30px;
+}
+
+.tokenlist:hover{
+  background-color: rgb(134, 133, 133);
+  width: 100%;
+
+}
+
+.tokendetails{
+  padding: 5px;
+  margin-left: 20px;
+  text-align: justify;
+}
+
+.tokenimage{
+  margin-left: 40px;
+}
+
+.tokensymbol{
+  text-transform: uppercase;
+}
+
